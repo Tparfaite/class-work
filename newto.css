@@ -1,0 +1,18 @@
+p{font-size: 32px;
+    color: green;
+    /* background-image:repeating-linear-gradient(red,yellow 20%,green 40%); */
+    padding-left: 40px;
+    background-image:  linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    width:800px;
+    height:260px;
+    margin-left:20px;
+}
+
+body form table{
+    border-collapse: collapse;
+    background-color: green;
+    color: white;
+}
+body{
+    margin-left: 42px;
+}
