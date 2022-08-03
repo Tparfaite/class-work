@@ -1,0 +1,64 @@
+/* this is z-index */
+.red,.green{
+    height: 150px;
+    width: 120px;
+    
+}
+.red{
+    background-color: aqua;
+    position: relative;
+    z-index: 2;
+    border: 2px solid orange;
+}
+.green{
+    background-color: green;
+    position: relative;
+    z-index: 1;
+    margin-top:-40px;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+h2{
+    padding-top: 50px;
+}
+
+/* this is transition */
+/* .red,.green{
+
+    height: 60px;
+    width: 60px;
+    border: 1px solid red;
+    transition: width 1s,height 2s linear,transform 2s ;
+    transition-delay: 0s;
+}
+.red{background-color: aqua;}
+.red:hover{
+    width: 90px;
+    height: 120px;
+    background-color: brown;
+    color: white;
+}
+.green:hover{
+    width: 100px;
+    height: 90px;
+    transform: rotate(360deg);
+} */
+
+
+/* transform */
+
+/* .red,.green{
+    
+
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(0, 238, 255);
+}
+.green{
+    transform: rotate(180deg);
+    transform: skewX(20deg);
+}
+.red{
+    transform: skew(30deg,20deg);
+} */
+
